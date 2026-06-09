@@ -20,40 +20,28 @@ works without internet, saves your scores.
 
 ---
 
-## How to put it on your iPhone / iPad
+## 🌐 It's live online — no Mac/server needed
 
-You need to serve the folder over your Mac's local network once so Safari on the phone can open it.
-After you "Add to Home Screen," it works **fully offline** — no Mac needed afterward.
+**App:** https://ciarf0711.github.io/cse-reviewer/
+**Install page (with QR + APK):** https://ciarf0711.github.io/cse-reviewer/install.html
 
-### Step 1 — Start a local server on your Mac
-Open Terminal and run:
+### 📱 iPhone / iPad
+1. Open **https://ciarf0711.github.io/cse-reviewer/** in **Safari**.
+2. Tap **Share** (□↑) → **Add to Home Screen** → **Add**.
+3. A **CSE Reviewer** icon appears — opens full-screen, works **offline** after first load.
+
+### 🤖 Android
+- **App file:** download **CSE-Reviewer.apk** (in this repo / on the install page), tap it → Install.
+- **Or one-tap:** open the link in Chrome → menu ⋮ → **Install app**.
+
+> Day-to-day reviewing is 100% offline once installed. The live URL is just for first install
+> and for sharing to other phones (scan the QR on the install page).
+
+### (Optional) Run locally instead
 ```bash
 cd ~/Downloads/Claude_Anything/cse-reviewer
-python3 -m http.server 8000
+python3 -m http.server 8000   # then open http://<your-mac-ip>:8000 on the phone
 ```
-Leave that Terminal window open. Find your Mac's IP address:
-```bash
-ipconfig getifaddr en0     # Wi-Fi  (try en1 if blank)
-```
-Say it returns `192.168.1.50`.
-
-### Step 2 — Open it in Safari on the iPhone/iPad
-Make sure the phone is on the **same Wi-Fi** as the Mac, then open Safari and go to:
-```
-http://192.168.1.50:8000
-```
-(Use your own IP from Step 1.)
-
-### Step 3 — Add to Home Screen
-1. Tap the **Share** button (□↑) at the bottom of Safari.
-2. Scroll down → **Add to Home Screen**.
-3. Tap **Add**.
-
-A **CSE Reviewer** icon appears on your Home Screen. Tap it → it opens full-screen, no Safari bar.
-The first time it loads, it caches everything, so after that it **works with Wi-Fi off / Mac off**.
-
-> You only need the Mac + server for the *initial* install (and whenever you want to update the
-> questions). Day-to-day reviewing is 100% offline on the device.
 
 ---
 
