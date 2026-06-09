@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "ph.cse.reviewer",
+    "sha256_cert_fingerprints": [
+      "E0:F4:33:A3:62:B5:AA:0A:08:A5:15:2D:28:09:8E:74:AA:BA:B3:58:0C:A0:17:C0:AB:AF:39:6F:B5:AC:30:ED"
+    ]
+  }
+}]
