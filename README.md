@@ -5,13 +5,13 @@ Progressive Web App (PWA). Add it to your Home Screen and it behaves like a real
 works without internet, saves your scores.
 
 ## What's inside
-- **3,730 practice questions** across 4 subjects, each with the **correct answer + a worked explanation**:
+- **4,000 practice questions** across 4 subjects, each with the **correct answer + a worked explanation**:
   | Subject | Questions |
   |---|---|
   | 🔢 Numerical Ability | 1,000 |
   | 🧩 Analytical Ability | 1,000 |
-  | 📖 Verbal (English & Filipino) | 827 |
-  | 🇵🇭 General Information | 903 |
+  | 📖 Verbal (English & Filipino) | 1,000 |
+  | 🇵🇭 General Information | 1,000 |
 - **Practice mode** — instant feedback + explanation after each item.
 - **Timed Exam mode** — ~50 sec/question, results at the end (mimics the real exam).
 - **Mixed Mock Exam** — random questions from all subjects.
